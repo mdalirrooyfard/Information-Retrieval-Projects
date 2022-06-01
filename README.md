@@ -28,7 +28,7 @@ Algorithms for Classification:
   - SVM with linear kernel
 
 
-The K-Means algorithm was implemented for the Clustering part. The clustering part was done with two vector systems: tf-idf and word2vec.
+The "K-Means" algorithm was implemented for the Clustering part. The clustering part was done with two vector systems: tf-idf and word2vec.
 
 Additional Details:
 
@@ -40,3 +40,18 @@ Additional Details:
   
 
 ## Project 3
+This Project is an Article Crawl and Search system.
+Project Details:
+  - Building an article crawler for semanticscholar.org
+  - Building an Index for the above articles with ElasticSearch.
+  - Calculating Page Rank for the above articles and adding that to ElasticSearch.
+  - Execute Weighted Search Queries on the data.
+  - Finding the best writers by implemeting the "HITS" algorithm.
+
+
+## Project 4
+This is a supervised learning project to find the relation between queries and documents.
+
+The implemented algorithms is "Ranking SVM".
+
+The results on the test data is evaluated by the NDCG metric.
