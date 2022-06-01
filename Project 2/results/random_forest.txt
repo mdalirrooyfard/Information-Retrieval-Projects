@@ -1,0 +1,5 @@
+for number of trees:  5  and depth:  10 , accuracy:  0.474
+for number of trees:  5  and depth:  100 , accuracy:  0.7423333333333333
+for number of trees:  10  and depth:  10 , accuracy:  0.5646666666666667
+for number of trees:  10  and depth:  100 , accuracy:  0.7936666666666666
+the best number of trees:  10  and depth:  100  with accuracy:  0.7936666666666666

@@ -1,0 +1,4 @@
+for c =  1 , accuracy:  0.882
+for c =  0.1 , accuracy:  0.889
+for c =  0.01 , accuracy:  0.8973333333333333
+the best regularizer:  0.01  with accuracy  0.8973333333333333

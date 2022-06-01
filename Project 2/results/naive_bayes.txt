@@ -1,0 +1,110 @@
+alpha =  0.1 : 
+accuracy:  0.8976666666666666
+confusion matrix: 
+ [[659.  28.  31.  32.]
+ [  9. 734.   3.   4.]
+ [ 28.   8. 633.  81.]
+ [ 28.   4.  51. 667.]]
+recall for class  1 :  0.8786666666666667
+precision for class  1 :  0.9102209944751382
+recall for class  2 :  0.9786666666666667
+precision for class  2 :  0.9483204134366925
+recall for class  3 :  0.844
+precision for class  3 :  0.8816155988857939
+recall for class  4 :  0.8893333333333333
+precision for class  4 :  0.8507653061224489
+Macro averaged F1:  0.8973599632040326
+------------------------------------------------------
+alpha =  1 : 
+accuracy:  0.896
+confusion matrix: 
+ [[668.  29.  28.  25.]
+ [  8. 736.   1.   5.]
+ [ 30.   9. 633.  78.]
+ [ 34.  10.  55. 651.]]
+recall for class  1 :  0.8906666666666667
+precision for class  1 :  0.9027027027027027
+recall for class  2 :  0.9813333333333333
+precision for class  2 :  0.9387755102040817
+recall for class  3 :  0.844
+precision for class  3 :  0.8828451882845189
+recall for class  4 :  0.868
+precision for class  4 :  0.857707509881423
+Macro averaged F1:  0.8955089580237678
+------------------------------------------------------
+alpha =  10 : 
+accuracy:  0.8816666666666667
+confusion matrix: 
+ [[664.  35.  28.  23.]
+ [  8. 735.   4.   3.]
+ [ 36.  16. 624.  74.]
+ [ 44.  17.  67. 622.]]
+recall for class  1 :  0.8853333333333333
+precision for class  1 :  0.8829787234042553
+recall for class  2 :  0.98
+precision for class  2 :  0.9153175591531756
+recall for class  3 :  0.832
+precision for class  3 :  0.8630705394190872
+recall for class  4 :  0.8293333333333334
+precision for class  4 :  0.8614958448753463
+Macro averaged F1:  0.88076718006724
+------------------------------------------------------
+the best alpha:  0.1  with accuracy:  0.8976666666666666
+impact of stemming: 
+accuracy:  0.8963333333333333
+confusion matrix: 
+ [[665.  27.  30.  28.]
+ [  8. 734.   1.   7.]
+ [ 29.  10. 633.  78.]
+ [ 29.   9.  55. 657.]]
+recall for class  1 :  0.8866666666666667
+precision for class  1 :  0.9097127222982216
+recall for class  2 :  0.9786666666666667
+precision for class  2 :  0.941025641025641
+recall for class  3 :  0.844
+precision for class  3 :  0.8803894297635605
+recall for class  4 :  0.876
+precision for class  4 :  0.8532467532467533
+Macro averaged F1:  0.8959508569038175
+------------------------------------------------------
+impact of lemmatization: 
+accuracy:  0.9006666666666666
+confusion matrix: 
+ [[662.  28.  29.  31.]
+ [  7. 737.   2.   4.]
+ [ 28.   7. 634.  81.]
+ [ 26.   6.  49. 669.]]
+recall for class  1 :  0.8826666666666667
+precision for class  1 :  0.9156293222683264
+recall for class  2 :  0.9826666666666667
+precision for class  2 :  0.9473007712082262
+recall for class  3 :  0.8453333333333334
+precision for class  3 :  0.8879551820728291
+recall for class  4 :  0.892
+precision for class  4 :  0.8522292993630574
+Macro averaged F1:  0.9003217587410097
+------------------------------------------------------
+impact of stopwords removal: 
+accuracy:  0.9016666666666666
+confusion matrix: 
+ [[665.  27.  29.  29.]
+ [  9. 735.   2.   4.]
+ [ 27.   5. 636.  82.]
+ [ 29.   4.  48. 669.]]
+recall for class  1 :  0.8866666666666667
+precision for class  1 :  0.910958904109589
+recall for class  2 :  0.98
+precision for class  2 :  0.953307392996109
+recall for class  3 :  0.848
+precision for class  3 :  0.8895104895104895
+recall for class  4 :  0.892
+precision for class  4 :  0.8533163265306123
+Macro averaged F1:  0.9014017319429679
+------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+for naive bayes with alpha = 0.1:
+accuracy with normal job:  0.8976666666666666
+accuracy with stemming:  0.8963333333333333
+accuracy with lemmatization:  0.9006666666666666
+accuracy with stopwords removal:  0.9016666666666666
+the best impact:  stopwords removal  and the worst impact:  stemming
