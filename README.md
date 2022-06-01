@@ -52,6 +52,6 @@ Project Details:
 ## Project 4
 This is a supervised learning project to find the relation between queries and documents.
 
-The implemented algorithms is "Ranking SVM".
+The implemented algorithm is "Ranking SVM".
 
 The results on the test data is evaluated by the NDCG metric.
