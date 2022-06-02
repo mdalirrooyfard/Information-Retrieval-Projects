@@ -13,7 +13,7 @@ Details of Project:
   - Query spelling correction function.
   - Document Retrieval in tf-idf vector space with ltn-lnn and ltc-lnc scoring approaches.
   - Phrasal search.
-  - Detailed search based on the title and the text of the documents.
+  - Detailed search based on title and text of the documents.
   - System Evaluation with following metrics: MAP, F-measure, R-Precision, NDCG.
   - There is also a test jupiter file.
  
@@ -46,7 +46,7 @@ Project Details:
   - Building an Index for the above articles with ElasticSearch.
   - Calculating Page Rank for the above articles and adding that to ElasticSearch.
   - Execute Weighted Search Queries on the data.
-  - Finding the best writers by implemeting the "HITS" algorithm.
+  - Finding the best writers by implementing the "HITS" algorithm.
 
 
 ## Project 4
